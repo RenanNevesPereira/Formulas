@@ -1,1 +1,5 @@
 SUBSTITUTE(LEFT(IF(CONTAINS({!Descricao}, "Equipe"), RIGHT({!Descricao},LEN({!Descricao})-Find("Equipe", {!Descricao})+1),''),8),' ','_')
+
+
+{!Descricao} = Campo
+Equipe = Palavra a ser localizada
