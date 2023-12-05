@@ -1,0 +1,1 @@
+SUBSTITUTE(IF(CONTAINS({!Descricao}, "Equipe"), RIGHT({!Descricao},LEN({!Descricao})-Find("Equipe", {!Descricao})+1), ''),' ','_')
