@@ -1,0 +1,3 @@
+LEFT({!Nome_completo}, FIND( " ", {!Nome_completo} ) -1 )
+
+RIGHT({!Nome_completo}, LEN({!Nome_completo}) - FIND(" ", {!Nome_completo}))
